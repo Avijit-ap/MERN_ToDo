@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const todoRoutes = require('./routes/todoRoutes');
+const todoRoutes = require('./server/routes/todoRoutes');
 
 dotenv.config(); // Load environment variables from .env
 
